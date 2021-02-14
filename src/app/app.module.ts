@@ -28,9 +28,9 @@ import { ShoppingModule } from './shopping/shopping.module';
     AdminModule,
     ShoppingModule,
     RouterModule.forRoot([
-      { path: '', component: ProductsComponent },
-      { path: 'login', component: LoginComponent }
-    ]),
+    { path: '', component: ProductsComponent },
+    { path: 'login', component: LoginComponent }
+], { relativeLinkResolution: 'legacy' }),
     AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [AdminAuthGuardService],
