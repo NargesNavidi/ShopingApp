@@ -1,0 +1,11 @@
+.thumbnail {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-size: cover;
+  margin: 10px;
+}
+
+/* .card {
+  margin-bottom: 80px;
+} */

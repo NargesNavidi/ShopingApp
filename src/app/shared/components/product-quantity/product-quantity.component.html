@@ -1,0 +1,7 @@
+<div class="row card-row-footer">
+  <button (click)="removeFromCart()" class="btn btn-info col-3">-</button>
+  <div class="col">{{ shoppingCart.getQuantity(product) }} in cart</div>
+  <button (click)="addToCart()" class="btn btn-info col-3">
+    +
+  </button>
+</div>

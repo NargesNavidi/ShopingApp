@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+$prim-color: rgb(23, 162, 184);
+$sec-color: #0b6675;
+$third-color: #94ced7;
+
+body {
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: $sec-color;
+}
+
+a:hover {
+  color: $third-color;
+}
+
+.table td {
+  vertical-align: middle;
+}
+// .navbar {
+//   border-bottom: 3px solid #e7e7e7;
+// }
+
+.navbar-light .navbar-brand {
+  color: $prim-color;
+}
+
+// .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+//   color: $third-color;
+// }
+
+.list-group-item.active {
+  background-color: $prim-color;
+  border-color: $prim-color;
+}
+
+.btn-primary,
+.btn-info {
+  background-color: $sec-color;
+  border-color: $sec-color;
+}
+.btn-primary:hover {
+  background-color: $third-color;
+  border-color: $third-color;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: $third-color;
+  border-color: $third-color;
+}
+
+.form-control:focus {
+  border-color: $sec-color;
+  box-shadow: none;
+}
+
+.pad10 {
+  padding: 10px;
+}
+
+.mar-b80 {
+  margin-bottom: 80px;
+}
+
+.table th,
+.table td {
+  border-top: 1px solid $third-color;
+}
+
+.card,
+.list-group-item {
+  border: 1px solid $third-color;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid $third-color;
+}
